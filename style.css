@@ -1,0 +1,92 @@
+/*
+Theme Name:     Mapping the Tide Theme
+Description:    
+Author:         Tyler Grace (ADHC)
+Template:       amadeus
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+.header-image {
+    background-attachment: inherit !important;
+    background-size: cover !important;
+    background-position: inherit !important;
+}
+
+
+.site-title a {
+    font-family: monospace;
+}
+
+.site-title a:hover {
+    text-decoration: none;
+}
+
+.mobile-nav, .social-navigation {
+    background-color: #a00000 !important;
+}
+
+.main-navigation {
+    border-top: #a00000 2px solid;
+    border-bottom: #a00000 2px solid;
+    background-color: #a00000 !important;
+}
+
+.main-navigation a:hover {
+    color: #fff !important;
+}
+
+/*
+.menu-item a, .main-navigation a {
+    color: #fff !important;
+}
+*/
+
+.slicknav_nav {
+    background-color: #565152;
+}
+
+.slicknav_nav a {
+    color: #fff !important;
+}
+
+.slicknav_nav a:hover {
+    color: #a00000 !important;
+}
+
+a {
+    color: #428bca;
+}
+
+.fa-chevron-up {
+    color: #a00000;
+}
+
+.site-footer a {
+    color: #428bca !important;
+}
+
+.site-footer a:hover {
+    color: #428bca !important;
+}
+
+/*
+.site-footer {
+    border-top: #a00000 2px solid;
+    border-bottom: #a00000 2px solid;
+}
+*/
+
+.scroll-container a {
+    color: #a00000 !important;
+    border: 2px solid #a00000 !important;
+    padding-top: 8px !important;
+}
+
+.scroll-container a:hover {
+    background-color: #a00000 !important;
+}
+
+.scroll-container a:hover > .fa-chevron-up {
+    color: #fff !important;
+}
