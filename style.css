@@ -8,6 +8,11 @@ Version:        0.1.0
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
 
+@font-face {
+    font-family: themeFont;
+    src: url(CapitalisTypOasis.ttf);
+}
+
 .header-image {
     background-attachment: inherit !important;
     background-size: cover !important;
