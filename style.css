@@ -3,7 +3,7 @@ Theme Name:     Ancient Pasts Theme
 Description:    
 Author:         Tyler Grace (ADHC)
 Template:       amadeus
-Version:        0.2.3
+Version:        0.3.0
 Bitbucket Plugin URI: https://thgraceUA@bitbucket.org/alabamaDH/ancient-pasts.git
 Bitbucket Branch: master
 
@@ -17,7 +17,13 @@ Bitbucket Branch: master
 
 .content-area {
     margin: auto;
+    float: none;
 }
+
+
+.entry-header {display: none;} 
+#content { margin-top: 20px; }
+
 
 
 .header-image {
@@ -102,4 +108,22 @@ a {
 
 .scroll-container a:hover > .fa-chevron-up {
     color: #fff !important;
+}
+
+/*home page styles*/
+#post-6 { padding: 0px 0px 0px 0px; }
+
+.greek-container {border-right: solid 2px #e0e0e0; color: black; fill: black;}
+.roman-container {color: black; fill: black;}
+
+.greek-container:hover {color: #e0e0e0; fill: #e0e0e0;}
+.greek-container:hover svg {fill: #e0e0e0 !important;}
+
+.roman-container:hover {color: #e0e0e0; fill: #e0e0e0;}
+.roman-container:hover svg {fill: #e0e0e0 !important;}
+
+svg {
+    width: 130px;
+    display: block;
+    margin: auto;
 }
